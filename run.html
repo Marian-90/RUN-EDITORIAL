@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Run editorial</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="assets/logo 2-02.svg" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header">
+        <div class="header_content">
+            <a href="#" class="logo">
+                 <img src="assets/logo 2-02.svg" alt="logo" class="logo__img">
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#video__container" class="nav__link">INICIO</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#section__one" class="nav__link">BIENVENIDO</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#section__two" class="nav__link">PORTAFOLIO</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#section_three" class="nav__link">SERVICIOS</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#section__four" class="btn">CONTACTO</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+
+<div class="container">
+     <div id="video__container">
+        <video class="video" src="assets/horizontal.mp4" autoplay muted></video>
+        <video class="vertical" src="assets/vertical video run.mp4" autoplay muted></video>
+    </div>
+
+    <div id="section__one">
+        <h2 class="bienvenido">BIENVENIDO</h2>
+        <p class="texto"> 
+        Aquí en Chicken Run editorial, nos enorgullece ofrecerte una experiencia única en el mundo de la publicación de libros de terror.
+        ¿Eres un autor  con una historia aterradora que ansías compartir con el mundo? 
+        
+        
+        ¡Estás en el lugar correcto! , no solo ofrecemos servicios de maquetación de libros, diseño de portadas e ilustración de alta calidad, 
+        sino que también estamos  comprometidos en ayudarte a dar vida 
+        a tus sueños literarios más oscuros.
+        </p>
+    </div>
+
+    <div id="section__two">
+        <div class="contenido">
+            <h2 class="portafolio">PORTAFOLIO</h2>
+            <p class="ptexto">Explora nuestro portafolio y sumérgete en el mundo del terror visual.</p>
+            <a href="portafolio.html" class="boton">Ver más</a>
+        </div>
+    </div>
+
+    <div id="section_three">
+        <h2 class="titulo__seccion">
+            SERVICIOS
+        </h2>
+        <div class="container-texto">
+            <p class="text-area">Ofrecemos una variedad de opciones para adaptarnos a las necesidades específicas de cada autor y cada obra. 
+                Aquí hay una descripción de lo que ofrecemos, favor de picarle a cada imagen para visualizarlo. </p>        
+        </div>
+
+        <div class="servicios">
+            <div class="card">
+                <div class="icon">
+                    <img src="assets/IMAGENES-09.png" alt="" class="pic">
+                </div>
+                <div class="details">
+                    <div class="informacion">
+                        <h2 class="name">MAQUETACIÓN</h2>
+                        <p class="about">En nuestra editorial de novelas de terror, 
+                            entendemos la importancia de una presentación impecable para complementar la experiencia única que ofrece cada historia.
+                            Es por eso que ofrecemos un servicio de maquetación que garantiza que tu obra se vea a tu gusto.</p>
+                    </div>
+                </div>
+            </div> <!--CARDFIVE-->
+
+            <div class="card">
+                <div class="icon">
+                    <img src="assets/IMAGENES-11.png" alt="" class="pic">
+                </div>
+                <div class="details">
+                    <div class="informacion">
+                        <h2 class="name">DISEÑO DE PORTADA</h2>
+                        <p class="about">Diseñamos portadas personalizadas para adaptarla a tu novela.
+                            nuestro trabajo es crear la primera impresion y que se sienta atraido para explorar
+                            que hay dentro de esa portada.
+                        </p>
+                    </div>
+                </div>
+            </div> <!--CARDFOUR-->
+
+            <div class="card">
+                <div class="icon">
+                    <img src="assets/IMAGENES-10.png" alt="" class="pic">
+                </div>
+                <div class="details">
+                    <div class="informacion">
+                        <h2 class="name">ILUSTRACIONES</h2>
+                        <p class="about">Nuestro equipo de ilustradores altamente talentosos está aquí para dar vida a las visiones 
+                            y emociones detrás de cada historia. Descubre cómo nuestras ilustraciones exclusivas pueden 
+                            fortalecer la identidad visual de tu libro y cautivar a tu audiencia.</p>
+                    </div>
+                </div>
+            </div> <!--CARDTHREE-->
+
+        </div>  <!--SERVICIOS-->
+            
+    </div>    <!--SECTIONTHREE-->
+        
+    <div id="section__four">
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>CONTÁCTANOS</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="bf695753-b230-48d7-9bac-572f61d6a129">
+                <input type="text" name="name" placeholder="Nombre" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Email" class="contact-inputs" required>
+                <textarea name="mensaje" placeholder="Mensaje" class="contact-inputs" required></textarea>
+                <button type="submit">Submit <img src="assets/flecha-derecha (1).png" alt=""></button>
+            </form>
+        </div>
+    </div>  <!--SECTIONFOUR-->
+
+</div> <!--CONTAINER-->
+   
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
